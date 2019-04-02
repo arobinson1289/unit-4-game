@@ -1,0 +1,28 @@
+.jumbotron {
+    background-image: url(https://s3.amazonaws.com/tinycards/image/f59979a8788d2e8b1a86cc3ba8d01c13);
+    color: aliceblue;
+    text-align: center;
+}
+body {
+    background-color: #ffe2f5;
+}
+
+.crystalImages {
+    height: 100px;
+    width: 100px;
+}
+
+.user_total {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.random_total {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.random_total {
+    text-float:left;
+}
