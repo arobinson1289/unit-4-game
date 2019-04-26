@@ -28,7 +28,7 @@
                 <hr>
                 <span>Crystals hold unknown values and in most cases, we're left to decipher their value ourselves. In
                     this game, you'll be asked to decipher the unknown values of these crystals by adding them together
-                    against a random value you'll be given. Click the crytals and see if you can match the random value
+                    against a random value you'll be given. Click the crystals and see if you can match the target value!
                     before guessing too high!
                 </span>
             </div>
@@ -42,7 +42,7 @@
 
                         </div>
                 <div class="col-md-6 random_total">
-                    <h2>Computer Total: <span id="random_total"></span></h2>
+                    <h2>Target Value: <span id="target_value"></span></h2>
                 </div>
     
             </div>
@@ -56,25 +56,23 @@
                 <div class="row">
         <!--Below is where the user can click crystals to create a total-->
                     <div class="col-md-6">
-                        <img src="assets/images/green_crystal.png" alt="green_crystal" class="crystalImages"
-                            id="greenCrystal">
-                        <img src="assets/images/blue_crystal.png" alt="pink_crystal" class="crystalImages" id="blue">
-                        <img src="assets/images/pink_crystal.png" alt="pink_crystal" class="pinkCrystal crystalImages">
-                        <img src="assets/images/yellow_crystal.png" alt="yellow_crystal" class="crystalImages"
-                            id="yellow_crystal">
+                        <img src="assets/images/green_crystal.png" alt="green_crystal" class="crystalImages"id="green_crystal">
+                        <img src="assets/images/blue_crystal.png" alt="pink_crystal" class="crystalImages" id="blue_crystal">
+                        <img src="assets/images/pink_crystal.png" alt="pink_crystal" class="pinkCrystal crystalImages" id="pink_crystal">
+                        <img src="assets/images/yellow_crystal.png" alt="yellow_crystal" class="crystalImages"id="yellow_crystal">
                     </div>
                     <div class="col-md-6">
                         <div class="row">                       <!--I AM AWARE I COULD HAVE CODED THIS GRID BETTER-->
                             <div class="col-md-6">
                                 <h4>
-                                    <div>Wins:<span class="wins"></span><br>
+                                    <div>Wins:<span class="wins"id="wins"></span><br>
                                 </h4>
-                                <h4>Loses:<span class="loses"></span></h4>
+                                <h4>Loses:<span class="losses"id="losses"></span></h4>
                             </div>
                             <div class="col-md-6">
-                                <button type="button" class="btn btn-light center-block˜" id="new_game">New Game</button>
+                                <button type="button" class="btn btn-light center-block˜" id="newGameButton">New Game</button>
 
-                                
+            
                             </div>
 
                         </div>
@@ -88,7 +86,8 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <div src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"><script>
-    </div>
+    </script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
